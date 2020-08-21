@@ -13,28 +13,22 @@ export const plantSeeds = (plantingPlan) => {
         for (const plot of plantRow) {
             //console.log(plot);
             if (plot === "Asparagus") {
-                createAsparagus();
-                addPlant(plot);
+                addPlant(createAsparagus());
             }
             else if (plot === "Wheat") {
-               createWheat();
-               addPlant(plot);
+               addPlant(createWheat());
             }
             else if (plot === "Potato"){
-                createPotato();
-                addPlant(plot);
+                addPlant(createPotato());
             }
             else if (plot === "Soybean") {
-                createSoybean();
-                addPlant(plot);
+                addPlant(createSoybean());
             }
             else if (plot === "Sunflower") {
-                createSunflower();
-                addPlant(plot);
+                addPlant(createSunflower());
             }
             else if (plot === "Corn") {
-                createCorn();
-                addPlant(plot);
+                addPlant(createCorn());
             }
         }
     }

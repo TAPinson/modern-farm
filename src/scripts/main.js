@@ -63,4 +63,9 @@ const testArray = [
 
 plantSeeds(yearlyPlan);
 import { myField } from './field.js'
+//console.log(myField);
+
+// Section below for working with harvester.js
+import { harvestPlants } from './harvester.js';
+harvestPlants(myField);
 console.log(myField);
