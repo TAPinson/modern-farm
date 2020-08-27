@@ -68,4 +68,4 @@ import { myField } from './field.js'
 // Section below for working with harvester.js
 import { harvestPlants } from './harvester.js';
 harvestPlants(myField);
-console.log(myField);
+//console.log(myField);
